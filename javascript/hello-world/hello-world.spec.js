@@ -4,7 +4,7 @@ describe('Hello World', function() {
   var helloWorld = new HelloWorld();
 
   it('says hello world with no name', function() {
-    expect(helloWorld.hello('World')).toEqual('Hello, World!');
+    expect(helloWorld.hello('')).toEqual('Hello, World!');
   });
 
   it('says hello to bob', function() {
